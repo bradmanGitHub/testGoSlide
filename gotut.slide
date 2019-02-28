@@ -7,7 +7,3 @@ https://medium.com/@โปรแกรมเมอร์บ่น/
 * Hello World
 
 .play -numbers -edit hello.go
-
-* FizzBuzz
-
-.play -numbers -edit FizzBuzz.go
