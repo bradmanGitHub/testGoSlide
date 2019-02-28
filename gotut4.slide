@@ -1,0 +1,25 @@
+* Title of slide or section (must have asterisk)
+
+Some Text
+
+** Subsection
+
+- bullets
+- more bullets
+- a bullet with
+
+*** Sub-subsection
+
+Some More text
+
+  Preformatted text
+  is indented (however you like)
+
+Further Text, including invocations like:
+
+.play hello.go
+.image image.jpg
+.background bg.jpg
+.html file.html
+
+Again, more text
