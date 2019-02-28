@@ -17,12 +17,9 @@ Some More text
 
 Further Text, including invocations like:
 
-.code x.go /^func main/,/^}/
-.play y.go
+.play hello.go
 .image image.jpg
-.background image.jpg
-.iframe http://foo
-.link http://foo label
+.background bg.jpg
 .html file.html
 .caption _Gopher_ by [[https://www.instagram.com/reneefrench/][Renée French]]
 
