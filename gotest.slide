@@ -1,0 +1,36 @@
+Essential Go Programming
+
+Somchai Saichom
+Senior Software Developer
+somchais@gmail.com
+https://medium.com/@somchaiS/
+@somchaiS
+
+* Can Edit/Show Line Number
+
+.play -numbers -edit hello-world.go
+
+* Can Edit/Without Line Number
+
+.play -edit hello-world.go
+
+* Show some function only
+
+.play -edit hello-world.go /^func main/,/^}/
+
+* Link Example
+
+.play -edit hello-world.go /^func main/,/^}/
+
+.link https://play.golang.org/p/ok3sbKoBawn Full Source Code
+
+* Show Some Syntax in slide
+
+.code sampleTxt.txt.txt /BEGIN GRAMMAR OMIT/,/END GRAMMAR OMIT/
+
+.code listing-8-if-syntax.txt /BEGIN EXAMPLE1 OMIT/,/END EXAMPLE1 OMIT/
+
+.code listing-8-if-syntax.txt /BEGIN EXAMPLE2 OMIT/,/END EXAMPLE2 OMIT/
+
+* Show some plain text
+ใน block ของ loop เราสามารถหยุดการทำงานได้ทันทีด้วย break หรือข้ามส่วนที่เหลือให้ไปรับถัดไปทันทีด้วย continue ถ้าเป็น loop ที่ซ้อนกันเราสามารถใช้ label เพื่อ break หรือ continue ไปใน loop ชั้นบนกว่าได้
