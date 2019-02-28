@@ -1,4 +1,4 @@
-Essential Go Programming
+สไลด์ สอน Golang
 
 Somchai Saichom
 Senior Software Developer
@@ -6,25 +6,25 @@ somchais@gmail.com
 https://medium.com/@somchaiS/
 @somchaiS
 
-* Can Edit/Show Line Number
+* รัน code บน slide/แก้ไขได้/แสดง line number
 
 .play -numbers -edit hello-world.go
 
-* Can Edit/Without Line Number
+* รัน code บน slide/แก้ไขได้/ไม่แสดง line number
 
 .play -edit hello-world.go
 
-* Show some function only
+* แสดง code แค่บาง function
 
 .play -edit hello-world.go /^func main/,/^}/
 
-* Link Example
+* แสดง link ให้กดไปที่ือื่นได้
 
 .play -edit hello-world.go /^func main/,/^}/
 
 .link https://play.golang.org/p/ok3sbKoBawn Full Source Code
 
-* Show Some Syntax in slide
+* แสดง text บางส่วนใน file ที่ระบุ
 
 .code sampleTxt.txt /BEGIN GRAMMAR OMIT/,/END GRAMMAR OMIT/
 
@@ -32,5 +32,5 @@ https://medium.com/@somchaiS/
 
 .code sampleTxt.txt /BEGIN EXAMPLE2 OMIT/,/END EXAMPLE2 OMIT/
 
-* Show some plain text
+* แสดงข้อความธรรมดา
 ใน block ของ loop เราสามารถหยุดการทำงานได้ทันทีด้วย break หรือข้ามส่วนที่เหลือให้ไปรับถัดไปทันทีด้วย continue ถ้าเป็น loop ที่ซ้อนกันเราสามารถใช้ label เพื่อ break หรือ continue ไปใน loop ชั้นบนกว่าได้
